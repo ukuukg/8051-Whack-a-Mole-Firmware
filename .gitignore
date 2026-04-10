@@ -1,0 +1,23 @@
+# Keil 8051 build files
+*.hex
+*.OBJ
+*.M51
+*.LST
+*.plg
+*.lnp
+*.__i
+*.bak
+
+# Keil user-specific
+*.uvopt
+
+# Output / binaries
+*.exe
+*.out
+main
+
+# Misc
+*.log
+
+# Scripts / local tools
+open.bat
