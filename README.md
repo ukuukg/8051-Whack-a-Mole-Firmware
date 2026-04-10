@@ -52,7 +52,7 @@ The game uses **Timer0 in Mode 2** to generate a fast system tick and **external
 - **FSM State Machine:**
 
   <p align="center">
-    <img src="assets/fsm.png" width="500"/>
+    <img src="assets/fsm.png" width="800"/>
   </p>
 
 
