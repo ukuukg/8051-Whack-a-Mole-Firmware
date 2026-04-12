@@ -49,10 +49,13 @@ The game uses **Timer0 in Mode 2** to generate a fast system tick and **external
 - **Interrupts:**
   - Timer0: game tick
   - INT0: button press
-- **FSM State Machine:**
+- **Random Number Generation**
+  - Uses a **Linear Feedback Shift Register (LFSR)** for pseudo random number generation.
+  - Uses this random number to generate mole pattern and to determine the time mole appears.
+- **Finite State Machine:**
 
   <p align="center">
-    <img src="assets/fsm.png" width="500"/>
+    <img src="assets/fsm.png" width="800"/>
   </p>
 
 
